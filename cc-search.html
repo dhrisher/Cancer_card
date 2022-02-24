@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="cc-style.css">
+</head>
+
+<body>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/5ce8160d78.js" crossorigin="anonymous"></script>
+
+    <!-- Advanced search popup desktop -------------------------------------------------->
+
+    <!-- Advanced search popup mobile -------------------------------------------------->
+
+    <div class="popup-container">
+
+        <div class="advanced-search-container">
+            <h1>Advanced Search</h1>
+            <form action="POST">
+                <div class="label-spacer"><label for="keyword">Keyword:</label></div>
+                <input type="text" id="keyword" name="keyword" value=""><br>
+                <div class="label-spacer"><label for="location">Location:</label></div>
+                <select id="location" name="location">
+                    <option value="all">All</option>
+                    <option value="perthshire">Perthshire</option>
+                    <option value="midlothian">Midlothian</option>
+                </select><br>
+                <div class="label-spacer"><label for="role">Role:</label></div>
+                <select id="role" name="role">
+                    <option value="parent">Parent</option>
+                    <option value="patent">Patient</option>
+                    <option value="friend">Friend</option>
+                    <option value="social worker">Social Worker</option>
+                </select>
+                <br>
+                <div class="label-spacer"><label for="cancer_type">Cancer Type:</label></div>
+
+                <select id="cancer_type" name="cancer_type">
+                    <option value="breast">Breast</option>
+                    <option value="lung">Lung</option>
+                    <option value="bowel">Bowel</option>
+                    <option value="pancriatic">Pancriatic</option>
+                </select>
+                <input type="submit" value="Search">
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Nav -------------------------------------------------->
+    <!-- mobile view -->
+
+    <div class="nav-container">
+        <nav>
+            <div class="nav_img_container">
+                <img id="cancer_card_image" src="https://tinyurl.com/2p9hc4mk
+" alt="cancer card logo">
+            </div>
+            <div class="inner-nav-container mobile">
+                <div class="nav-box">
+                    <a href=""><i class="fas fa-home fa-2x"></i></a>
+                    <i class="fas fa-search fa-2x"></i>
+                </div>
+                <div class="nav-text-container-mobile">
+                    <div>Search results:</div>
+                </div>
+            </div>
+
+            <!-- Wide view -->
+
+            <div class="inner-nav-container wide">
+                <div class="nav-box">
+                    <div class="home-icon-container"><a href=""><i class="fas fa-home fa-2x"></i></a><a
+                            class="home-text">Home</a></div>
+                    <div class="advanced-search">Advanced search</div>
+                    <form action="POST">
+                        <label for="keyword">Keyword:</label>
+                        <input type="text" id="keyword" name="keyword" value=""><br>
+                        <label for="fname">Location:</label>
+                        <select id="location" name="location">
+                            <option value="audi">All</option>
+                            <option value="audi">Perthshire</option>
+                            <option value="audi">Midlothian</option>
+                        </select>
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+            </div>
+
+            <!-- Nav -------------------------------------------------->
+
+        </nav>
+    </div>
+    <div class="page-container">
+        <div class="container">
+            <div class="frame">
+                <h1>Maggies Edinburgh</h1>
+                <p>Maggie's is a charity providing free cancer support and information in centres across the UK and
+                    online.</p>
+                <p>Location: Edinburgh</p>
+                <a href="" class="btn">View</a>
+            </div>
+            <div class="background"></div>
+        </div>
+        <div class="container">
+            <div class="frame">
+                <h1>Maggies Edinburgh</h1>
+                <p>Maggie's is a charity providing free cancer support and information in centres across the UK and
+                    online.</p>
+                <p>Location: Edinburgh</p>
+                <a href="" class="btn">View</a>
+            </div>
+            <div class="background"></div>
+        </div>
+        <div class="container">
+            <div class="frame">
+                <h1>Maggies Edinburgh</h1>
+                <p>Maggie's is a charity providing free cancer support and information in centres across the UK and
+                    online.</p>
+                <p>Location: Edinburgh</p>
+                <a href="" class="btn">View</a>
+            </div>
+            <div class="background"></div>
+        </div>
+    </div>
+
+    <script src="cc-script.js"></script>
+</body>
+
+</html>
